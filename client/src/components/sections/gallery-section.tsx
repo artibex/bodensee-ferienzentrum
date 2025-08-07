@@ -26,7 +26,7 @@ const galleryImages = [
     description: "Einzigartige Panoramablicke auf den Bodensee"
   },
   {
-    src: "https://pixabay.com/get/g093d2d156ba756608ef7ee262686319ba97359f1b3372c5b0e85057cc79ae1c972989855bc7e3abd3623ed90d0d9c5b56479213a44edff8d4f2e854d97143bed_1280.jpg",
+    src: "https://images.unsplash.com/photo-1590490360182-c33d57733427?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600",
     alt: "Bodensee Uferpromenade mit Booten und Alpenkulisse",
     title: "Wassersport & Erholung",
     description: "Vielfältige Freizeitmöglichkeiten am Wasser"

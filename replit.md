@@ -1,6 +1,6 @@
 # Overview
 
-This is a full-stack web application for a Bodensee Ferienzentrum (Lake Constance vacation resort) built with React, Express, and TypeScript. The application showcases vacation accommodations at Lake Constance with modern web technologies, featuring a responsive design with German language content, accommodation listings, booking inquiries, and comprehensive resort information.
+This is a full-stack web application for a Bodensee Ferienzentrum (Lake Constance vacation center) built with React, Express, and TypeScript. The application showcases 3 vacation apartments offered by a single host at Lake Constance, featuring a responsive design with German language content, accommodation listings, booking inquiries, and personal hospitality service.
 
 # User Preferences
 

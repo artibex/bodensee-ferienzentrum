@@ -2,9 +2,9 @@ import { motion } from "framer-motion";
 import { Card, CardContent } from "@/components/ui/card";
 
 const stats = [
-  { number: "25+", label: "Jahre Erfahrung" },
-  { number: "50+", label: "Appartments" },
-  { number: "5000+", label: "Zufriedene Gäste" },
+  { number: "3", label: "Appartments" },
+  { number: "5+", label: "Jahre Erfahrung" },
+  { number: "150+", label: "Zufriedene Gäste" },
   { number: "4.8", label: "Bewertung ⭐" },
 ];
 
@@ -32,21 +32,23 @@ export default function About() {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-16">
           <div>
             <h2 className="text-2xl lg:text-3xl font-serif font-bold text-gray-900 dark:text-white mb-6">
-              Unsere Geschichte
+              Meine Geschichte
             </h2>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-6 leading-relaxed">
-              Seit über 25 Jahren bieten wir unseren Gästen unvergessliche Urlaubserlebnisse am wunderschönen Bodensee. 
-              Unser familiengeführtes Ferienzentrum vereint moderne Ausstattung mit der herzlichen Gastfreundschaft der Region.
+              Als persönlicher Gastgeber biete ich Ihnen drei wunderschöne, moderne Appartments in einem 
+              gepflegten Ferienkomplex direkt am Bodensee. Seit mehreren Jahren sorge ich dafür, dass sich 
+              meine Gäste während ihres Aufenthalts rundum wohlfühlen.
             </p>
             <p className="text-lg text-gray-600 dark:text-gray-300 mb-8 leading-relaxed">
-              In idyllischer Lage direkt am See gelegen, bieten wir Ihnen die perfekte Ausgangsbasis für Erkundungstouren 
-              in Deutschland, Österreich und der Schweiz. Entspannung und Abenteuer gehen bei uns Hand in Hand.
+              In idyllischer Lage mit direktem Zugang zum Hallenbad und allen Annehmlichkeiten des Ferienzentrums 
+              bieten meine liebevoll eingerichteten Appartments den perfekten Rahmen für Ihren Bodensee-Urlaub. 
+              Jede Unterkunft ist mit allem Komfort ausgestattet, den Sie für einen erholsamen Aufenthalt benötigen.
             </p>
           </div>
           <div className="relative">
             <img
-              src="https://pixabay.com/get/g6ecee97b980d35a86174caeb147b7313c6e9e363737998cd333478285cc53775db22aefb685ab46a231b15eb8ca33cda82869136673a73e6a152a628ef537c5c_1280.jpg"
-              alt="Historisches Bodensee-Gebäude mit traditioneller Architektur und malerischer Umgebung"
+              src="https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&h=600"
+              alt="Moderner Appartment-Komplex am Bodensee mit gepflegter Außenanlage"
               className="rounded-2xl shadow-lg w-full"
               loading="lazy"
             />
