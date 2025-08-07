@@ -73,6 +73,12 @@ npm run dev
 
 The application will be available at `http://localhost:5000`
 
+## 🌐 Live Demo
+
+**GitHub Pages**: https://YOUR_USERNAME.github.io/bodensee-ferienzentrum/
+
+The site automatically deploys to GitHub Pages on every push to the main branch. See [GITHUB_PAGES.md](GITHUB_PAGES.md) for detailed deployment information.
+
 ## 📁 Project Structure
 
 ```
