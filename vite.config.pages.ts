@@ -16,9 +16,7 @@ export default defineConfig({
     outDir: path.resolve(__dirname, "dist"),
     emptyOutDir: true,
     rollupOptions: {
-      input: {
-        main: path.resolve(__dirname, "client", "index-static.html"),
-      },
+      input: path.resolve(__dirname, "client", "index-static.html"),
       output: {
         manualChunks: {
           vendor: ['react', 'react-dom'],
